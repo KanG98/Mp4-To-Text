@@ -1,0 +1,30 @@
+Following shows how to convert mp4 to texts by frame
+
+[step 1 -> have script and mp4 in same directory]
+
+[step 2 -> install packages]
+
+# mp4 to images
+$brew install ffmpeg 
+
+# open cv
+$pip3 install pytesseract 
+$pip3 install opencv-python 
+
+# generate html files 
+$pip3 install dominate 
+
+[step 3 -> tesseract set up]
+
+$ brew list tesseract
+
+place the dir in ocr.py's pytesseract.pytesseract.tesseract_cmd variable
+
+[step 4 -> make script executeble]
+
+chmod +x ./mp4ToJPG.sh
+
+[step 5 -> run script]
+
+./mp4ToJPG.sh ./mp4file FRAME[number]
+
