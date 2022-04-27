@@ -22,7 +22,7 @@ place the dir in ocr.py's pytesseract.pytesseract.tesseract_cmd variable
 
 [step 4 -> make script executeble]
 
-chmod +x ./mp4ToJPG.sh
+chmod +x ./mp4ToText.sh
 
 [step 5 -> run script]
 
